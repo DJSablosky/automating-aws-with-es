@@ -8,4 +8,4 @@ Repository for Automating AWS with Elasticsearch
 
 Elkotron currently has the following features:
 
-- 
+- Stream VPC and ELB logs from AWS to Elasticsearch
