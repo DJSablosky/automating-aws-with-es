@@ -27,8 +27,8 @@ credentials = boto3.Session().get_credentials()
 awsauth = AWS4Auth(credentials.access_key, credentials.secret_key,
                    region, service, session_token=credentials.token)
 
-hosts = ["elastic-1.ardentmc.com", "elastic-2.ardentmc.com",
-         "elastic-3.ardentmc.com"]
+hosts = ["elastic-1.domain.com", "elastic-2.domain.com",
+         "elastic-3.domain.com"]
 index_names = ["elb-log-index", "vpc-log-index"]
 elb_type_name = "elb-log-type"
 vpc_type_name = "vpc-log-type"
